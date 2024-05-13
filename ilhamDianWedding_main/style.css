@@ -87,7 +87,11 @@ body {
   height: 100vh;
 }
 
-.mynavbar .navbar-brand,
+.mynavbar .navbar-brand{
+  font-family: "Great Vibes", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
 .mynavbar .offcanvas-title {
   font-family: "Great Vibes", cursive;
   font-size: 3.2rem;
@@ -548,6 +552,10 @@ footer li {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
+  }
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .simply-countdown > .simply-section {

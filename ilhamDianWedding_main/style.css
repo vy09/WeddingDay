@@ -87,7 +87,7 @@ body {
   height: 100vh;
 }
 
-.mynavbar .navbar-brand{
+.mynavbar .navbar-brand {
   font-family: "Great Vibes", cursive;
   font-size: 3.2rem;
   font-weight: bold;
@@ -232,6 +232,7 @@ body {
   background-color: rgba(58, 108, 130, 0.729) !important;
   color: white !important;
   border: 1px solid #999;
+  font-size: 2rem;
 }
 
 .info .card-header {
@@ -241,7 +242,7 @@ body {
 }
 
 .info .card-body {
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 
 .info .card-footer {
